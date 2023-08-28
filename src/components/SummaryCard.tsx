@@ -1,12 +1,23 @@
 interface SUMMARYCARDPROPS {
-  summaryCardData: {}
+  summaryCardData: {
+    category: string,
+    score: number,
+    icon: string
+  }
 }
 
-const SummaryCard = ({summaryCardData}:SUMMARYCARDPROPS) => {
+const SummaryCard = ({summaryCardData: {category, score, icon}}:SUMMARYCARDPROPS) => {
   return (
-    <div>
-      <p>{}</p>
-    </div>
+    <section className="summary-card-container">
+      <div>
+        <img src={icon} alt={`${category} icon`} />
+        <h3 className={`text-${category}`} >{category}</h3>
+      </div>
+      <div>
+        <h3>{score}</h3>
+        <h3> / 100</h3>
+      </div>
+    </section>
   )
 }
 

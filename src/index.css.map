@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"index.css"}
+{"version":3,"sourceRoot":"","sources":["sass/_colors.scss","sass/_variables.scss"],"names":[],"mappings":"AACI;EACI,OCDc;;;ADAlB;EACI,OCDc;;;ADAlB;EACI,OCDc;;;ADAlB;EACI,OCDc","file":"index.css"}

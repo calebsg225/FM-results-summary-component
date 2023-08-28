@@ -1,0 +1,5 @@
+@each $k, $v in $summary-card-colors {
+    .text-#{$k} {
+        color: $v;
+    }
+}

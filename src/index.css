@@ -1,3 +1,17 @@
+.text-Reaction {
+  color: hsl(0deg, 100%, 67%);
+}
 
+.text-Memory {
+  color: hsl(39deg, 100%, 56%);
+}
+
+.text-Verbal {
+  color: hsl(166deg, 100%, 37%);
+}
+
+.text-Visual {
+  color: hsl(234deg, 85%, 45%);
+}
 
 /*# sourceMappingURL=index.css.map */
