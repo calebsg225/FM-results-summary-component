@@ -1,6 +1,6 @@
 import ScoreCircle from "./components/ScoreCircle";
 import SummaryCard from "./components/SummaryCard";
-import summaryData from "./data/data.json";
+import summaryData from "./data/data";
 
 function App() {
   return (
