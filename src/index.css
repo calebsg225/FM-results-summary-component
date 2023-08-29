@@ -1,17 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .results-container {
+  max-width: 45rem;
+  border-radius: 30px;
+  display: grid;
+  box-shadow: 0 30px 40px 40px hsl(221deg, 100%, 96%);
+}
+.App .results-container .score-container {
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(0deg, hsl(241deg, 81%, 54%) 50%, hsl(252deg, 100%, 67%) 100%);
+}
+.App .results-container .score-container p {
+  text-align: center;
+  max-width: 70%;
+  font-size: 18px;
+}
+.App .results-container .summary-container {
+  padding: 2rem;
+}
+.App .results-container .summary-container h2 {
+  margin-bottom: 1.5rem;
+  color: hsl(224deg, 30%, 27%);
+  font-weight: 800;
+}
+
+@media (max-width: 700px) {
+  .results-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+  }
+}
+@media (min-width: 701px) {
+  .results-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  body, .root, .App {
+    height: 100vh;
+  }
+}
 .text-Reaction {
   color: hsl(0deg, 100%, 67%);
+}
+
+.background-Reaction {
+  background-color: rgba(255, 87, 87, 0.2);
 }
 
 .text-Memory {
   color: hsl(39deg, 100%, 56%);
 }
 
+.background-Memory {
+  background-color: rgba(255, 176, 31, 0.2);
+}
+
 .text-Verbal {
   color: hsl(166deg, 100%, 37%);
 }
 
+.background-Verbal {
+  background-color: rgba(0, 189, 145, 0.2);
+}
+
 .text-Visual {
   color: hsl(234deg, 85%, 45%);
+}
+
+.background-Visual {
+  background-color: rgba(17, 37, 212, 0.2);
+}
+
+.summary-card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 0.75rem;
+  border-radius: 15px;
+}
+.summary-card-container div {
+  display: flex;
+}
+.summary-card-container div h3 {
+  padding-left: 0.65rem;
+}
+
+.summary-circle {
+  background: linear-gradient(0deg, hsla(241deg, 72%, 46%, 0.2) 20%, hsl(256deg, 72%, 46%) 100%);
+  border-radius: 50%;
+  width: 50%;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.summary-circle h2 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.btn {
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 30px;
+  margin-top: 1.5rem;
+  background-color: hsl(224deg, 30%, 27%);
+  border: none;
+}
+.btn:hover {
+  background: linear-gradient(0deg, hsl(241deg, 81%, 54%) 50%, hsl(252deg, 100%, 67%) 100%);
+}
+
+.op-0 {
+  opacity: 0;
+}
+
+.op-1 {
+  opacity: 0.1;
+}
+
+.op-2 {
+  opacity: 0.2;
+}
+
+.op-3 {
+  opacity: 0.3;
+}
+
+.op-4 {
+  opacity: 0.4;
+}
+
+.op-5 {
+  opacity: 0.5;
+}
+
+.op-6 {
+  opacity: 0.6;
+}
+
+.op-7 {
+  opacity: 0.7;
+}
+
+.op-8 {
+  opacity: 0.8;
+}
+
+.op-9 {
+  opacity: 0.9;
 }
 
 /*# sourceMappingURL=index.css.map */

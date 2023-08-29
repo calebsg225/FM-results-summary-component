@@ -1,0 +1,17 @@
+@media (max-width: 700px) {
+  .results-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+  }
+}
+@media (min-width: 701px) {
+  .results-container {
+    grid-template-columns: 1fr 1fr;;
+    grid-template-rows: 1fr;
+  }
+
+  body, .root, .App {
+    height: 100vh;
+  }
+}

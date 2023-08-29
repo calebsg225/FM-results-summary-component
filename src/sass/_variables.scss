@@ -1,7 +1,23 @@
-// color variables
+// colors
 $summary-card-colors: (
     "Reaction" : hsl(0, 100%, 67%),
     "Memory" : hsl(39, 100%, 56%),
     "Verbal" : hsl(166, 100%, 37%),
     "Visual" : hsl(234, 85%, 45%)
 );
+
+$button-background: hsla(224, 30%, 27%);
+
+$base-background-gradient: linear-gradient(0deg, hsl(241, 81%, 54%) 50%, hsl(252, 100%, 67%) 100%);
+$circle-background-gradient: linear-gradient(0deg, hsla(241, 72%, 46%, 0.2) 20%, hsla(256, 72%, 46%, 1) 100%);
+
+// spacing
+$base-padding: 1rem;
+$base-margin: .75rem;
+
+// borders
+$small-border-radius: 15px;
+$large-border-radius: 30px;
+
+// shadow
+$base-box-shadow: 0 30px 40px 40px hsla(221, 100%, 96%);

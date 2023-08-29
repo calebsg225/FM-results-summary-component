@@ -1,0 +1,15 @@
+.summary-circle {
+  background: $circle-background-gradient;
+  border-radius: 50%;
+  width: 50%;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h2 {
+    font-weight: 700;
+    font-size: 4rem;
+  }
+}

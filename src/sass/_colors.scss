@@ -2,4 +2,7 @@
     .text-#{$k} {
         color: $v;
     }
+    .background-#{$k} {
+        background-color: fade-out($v, 0.8);
+    }
 }

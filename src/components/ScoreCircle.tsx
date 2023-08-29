@@ -11,7 +11,7 @@ const ScoreCircle = ({summaryData}:SCORECIRCLEPROPS) => {
   return (
     <div className="summary-circle">
       <h2>{average(summaryData)}</h2>
-      <h3>of 100</h3>
+      <h3 className="op-5">of 100</h3>
     </div>
   )
 }

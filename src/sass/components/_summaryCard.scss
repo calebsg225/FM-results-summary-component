@@ -1,0 +1,14 @@
+.summary-card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: $base-padding;
+  margin-top: $base-margin;
+  border-radius: $small-border-radius;
+
+  div {
+    display: flex;
+    h3 {
+      padding-left: $base-padding * .65;
+    }
+  }
+}

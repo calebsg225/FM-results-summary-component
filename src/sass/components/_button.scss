@@ -1,0 +1,13 @@
+.btn {
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  padding: $base-padding;
+  border-radius: $large-border-radius;
+  margin-top: $base-margin * 2;
+  background-color: $button-background;
+  border: none;
+  &:hover {
+    background: $base-background-gradient;
+  }
+}
